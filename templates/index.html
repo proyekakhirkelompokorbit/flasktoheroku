@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cabod</title>
+    <link rel="icon" href="">
+	<link rel="stylesheet" type="text/css" href="../static/index.css">
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../static/index.js"></script>
+</head>
+<body> 
+    <!-- navigasi bar -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href='web.html'>Cabod</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="web.html" class="tbl-biru">Kembali</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+
+    <!-- untuk tampilan awal -->
+        <section id="home">
+            <div class="kolom">
+                <p class="deskripsi">Pengenalan Multiple-Objek menggunakan yolov3-tiny</p>
+                <p>Anda bisa melakukan deteksi objek secara sekaligus di halaman web ini, dengan 3 objek yang sudah di tetapkan.</p>
+            </div>
+        </section>
+
+    <!-- choose file -->
+
+        <div className="pre_img">
+          <span class="tombol"><img id="imagebox" src=""></span>
+        </div>
+        <form>
+          <input id="imageinput" type="file" name="image" onchange="readUrl(this)">
+        </form>
+		<button name="send" id="sendbutton">Mendeteksi....</button>
+	</header>
+</div>
+
+</body>
+</html>
